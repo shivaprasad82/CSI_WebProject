@@ -108,9 +108,6 @@
 			<p class="sub-tittle text-center mt-2 mb-sm-5 mb-4 pb-xl-3">Enjoy your moments here</p>
 			<div class="comment-top mt-5">
 				<div class="comment-bottom mobamuinfo_mail_grid_right">
-				<div>
-                <h5 style="font-family:red">Bookings cannot be done for today</h1>			
-            </div>
 				   <div>
                 <h1 style="font-family:red">${errormessage}</h1>			
             </div>

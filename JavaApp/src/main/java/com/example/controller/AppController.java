@@ -83,12 +83,21 @@ public class AppController {
 		Date date1=new SimpleDateFormat("yyyy-MM-dd").parse(arr);
 		Date date2=new SimpleDateFormat("yyyy-MM-dd").parse(dep);  
 		
+		
+		
+		
+		
 		if(date1.before(new Date()) || date2.before(new Date())) {
 			
-			model.addAttribute("errormessage", "Please enter valid arrival or departure date!!");
+			model.addAttribute("errormessage", "Please enter valid arrival or departure date!! Arrival cannot be today's date");
 			return "book";
 		}
 		
+		if(date2.equals(date1)) {
+
+			model.addAttribute("errormessage", "Departure date cannot be as Arrival Date");
+			return "book";
+		}
 		if(date2.before(date1)) {
 			
 			model.addAttribute("errormessage", "Departure date cannot be before Arrival Date");
