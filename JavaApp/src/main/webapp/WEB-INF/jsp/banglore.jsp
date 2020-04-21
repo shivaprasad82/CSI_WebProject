@@ -78,6 +78,8 @@ if(session.getAttribute("user") == null){
 									</ul>
 								</li>
 								<li><a href="/contact">Contact Us</a></li>
+								<li><a href="/cart" >ViewCart</a></li>
+								<li><a href="/logout">Logout</a></li>
 							</ul>
 						</nav>
 					</div>

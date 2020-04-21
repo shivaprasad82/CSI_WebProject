@@ -44,7 +44,7 @@
 				<div class="header d-md-flex justify-content-between align-items-center py-3 px-xl-5 px-lg-3 px-2">
 					<!-- logo -->
 					<div id="logo">
-						<h1><a href="index.html">:)</a></h1>
+						<h1><a href="/home">:)</a></h1>
 					</div>
 					<!-- //logo -->
 					<!-- nav -->
@@ -53,9 +53,9 @@
 							<label for="drop" class="toggle">Menu</label>
 							<input type="checkbox" id="drop" />
 							<ul class="menu">
-								<li><a href="index.html" class="active">Home</a></li>
-								<li><a href="about.html">About Us</a></li>
-								<li><a href="gallery.html">Gallery</a></li>
+								<li><a href="/home" class="active">Home</a></li>
+								<li><a href="/aboutus">About Us</a></li>
+								<li><a href="/gallery">Gallery</a></li>
 								<li>
 									<!-- First Tier Drop Down -->
 									<label for="drop-2" class="toggle toogle-2">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span>
@@ -63,16 +63,18 @@
 									<a href="#">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span></a>
 									<input type="checkbox" id="drop-2" />
 									<ul>
-										<li><a href="index.html" class="drop-text">Services</a></li>
-										<li><a href="index.html" class="drop-text">Blog</a></li>
-										<li><a href="single.html" class="drop-text">Blog Details</a></li>
-										<li><a href="index.html" class="drop-text">What We do</a></li>
-										<li><a href="index.html" class="drop-text">Pricing</a></li>
-										<li><a href="about.html" class="drop-text">Testimonials</a></li>
-										<li><a href="book.html" class="drop-text">Booking Form</a></li>
+										<li><a href="/home" class="drop-text">Hyderabad</a></li>
+										<li><a href="/chennai" class="drop-text">Chennai</a></li>
+										<li><a href="/kerala" class="drop-text">Kerala</a></li>
+										<li><a href="/singapore" class="drop-text">Singapore</a></li>
+										<li><a href="/goa" class="drop-text">Goa</a></li>
+										<li><a href="/kochii" class="drop-text">kochii</a></li>
+										<li><a href="/banglore" class="drop-text">Bangalore</a></li>
 									</ul>
 								</li>
-								<li><a href="contact.html">Contact Us</a></li>
+								<li><a href="/contact">Contact Us</a></li>
+								<li><a href="/cart" >ViewCart</a></li>
+								<li><a href="/logout">Logout</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -94,7 +96,7 @@
 	<div class="breadcrumb-mobamu">
 		<ol class="breadcrumb">
 			<li class="breadcrumb-item">
-				<a href="index.html">Home</a>
+				<a href="/home">Home</a>
 			</li>
 			<li class="breadcrumb-item active" aria-current="page">Booking Form</li>
 		</ol>
@@ -188,7 +190,7 @@
 			<div class="row footer-top">
 				<div class="col-lg-4 col-md-6 footer-grid_section_1its">
 					<h2 class="logo-2 mb-lg-4 mb-3">
-						<a href="index.html" class="text-uppercase text-wh">Adress</a>
+						<a href="/home" class="text-uppercase text-wh">Adress</a>
 					</h2>
 					<!-- Map -->
 					<div class="map-fo">
@@ -200,19 +202,19 @@
 					<h3 class="footer-title text-uppercase text-wh mb-lg-4 mb-3">Links</h3>
 					<ul class="list-unstyled">
 						<li class="mb-3">
-							<a href="index.html">Home</a>
+							<a href="/home">Home</a>
 						</li>
 						<li class="mb-3">
-							<a href="about.html">About Us</a>
+							<a href="/aboutus">About Us</a>
 						</li>
 						<li class="mb-3">
-							<a href="gallery.html">Gallery</a>
+							<a href="/gallery">Gallery</a>
 						</li>
 						<li class="mb-3">
-							<a href="index.html">Services</a>
+							<a href="/home">Services</a>
 						</li>
 						<li class="mb-3">
-							<a href="contact.html">Contact Us</a>
+							<a href="/contact">Contact Us</a>
 						</li>
 					</ul>
 				</div>
