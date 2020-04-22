@@ -2,9 +2,6 @@ package com.example.Dao;
 
 
 
-import java.sql.Date;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -29,7 +26,7 @@ public class AppDaoRepositoryImpl implements AppDaoRepository {
 	public boolean addUser(String parameter, String parameter2) {
 		// TODO Auto-generated method stub
 		String username = null;
-		String sql="INSERT INTO USER VALUES(?,?)";
+		String sql="INSERT INTO user VALUES(?,?)";
 		
 		String selectSql="Select username from user where username =?";
 		try {

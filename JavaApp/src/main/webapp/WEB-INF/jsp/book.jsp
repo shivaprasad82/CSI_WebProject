@@ -137,11 +137,11 @@
 						</div>
 						<div class="row">
 							<div class="col-lg-6 form-group date-plu">
-								<label>Departure Date</label>
+								<label>Check-out Date</label>
 								<input id="depdate" type="date" name="date1" required="">
 							</div>
 							<div class="col-lg-6 form-group date-plu">
-								<label>Arrival Date</label>
+								<label>Check-in Date</label>
 								<input id="arrdate" type="date" name="date" required="">
 							</div>
 
